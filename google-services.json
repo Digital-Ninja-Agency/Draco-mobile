@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "113610932624",
+    "firebase_url": "https://draco-a5f2e.firebaseio.com",
+    "project_id": "draco-a5f2e",
+    "storage_bucket": "draco-a5f2e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:113610932624:android:dfe49fb2587281da9e3315",
+        "android_client_info": {
+          "package_name": "com.draco.help"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "113610932624-4om3bk6564n126d760qaqvs98ni0m0he.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC6GAfigoOyCVCJ-5yTcoJHPaQqCbyT7Ac"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "113610932624-4om3bk6564n126d760qaqvs98ni0m0he.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

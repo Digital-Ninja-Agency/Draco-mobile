@@ -1,0 +1,65 @@
+{
+  "expo": {
+    "name": "Draco",
+    "slug": "draco-help",
+    "privacy": "public",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.1.2",
+    "ios": {
+      "bundleIdentifier": "com.draco.help",
+      "buildNumber": "1.1.2",
+      "supportsTablet": true,
+      "icon": "./assets/icon-square-whitebg.png",
+      "infoPlist": {
+        "UIBackgroundModes": [
+          "location",
+          "fetch"
+        ],
+        "NSLocationWhenInUseUsageDescription": "Draco requires your location so that we find you once the alert button is pressed",
+        "NSLocationAlwaysUsageDescription": "Draco requires your location so that we find you once the alert button is pressed",
+        "NSLocationAlwaysAndWhenInUseUsageDescription": "Draco requires your location so that we find you once the alert button is pressed",
+        "NSLocationUsageDescription": "Draco requires your location so that we find you once the alert button is pressed",
+        "NSCameraUsageDescription": "Draco requires your camera to take a selfie photo of you in order to store it in your profile and to be recognized by our agents."
+      }
+    },
+    "android": {
+      "package": "com.draco.help",
+      "versionCode": 112,
+      "googleServicesFile": "./google-services.json"
+    },
+    "orientation": "portrait",
+    "icon": "./assets/icon-square.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "packagerOpts": {
+      "config": "metro.config.js",
+      "sourceExts": [
+        "js",
+        "json",
+        "ts",
+        "tsx",
+        "vue"
+      ]
+    },
+    "androidStatusBar": {
+      "backgroundColor": "#000001",
+      "barStyle": "light-content"
+    },
+    "notification": {
+      "icon": "./assets/icon-square.png"
+    }
+  }
+}
